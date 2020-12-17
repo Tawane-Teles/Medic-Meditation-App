@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Medic Meditation App</string>
+    <string name="splash_screen">splash screen</string>
+    <string name="img_logo_description">Essa imagem é do logo</string>
+    <string name="string_img_logo_description">imagem logo</string>
+    <string name="essa_imagem_do_welcome">Essa imagem é do welcome</string>
+    <string name="essa_imagem_do_bot_o">Essa imagem é do botão</string>
+    <string name="string_essa_imagem_do_bot_o">img_button</string>
+    <string name="essa_imagem_do_sign_up">Essa imagem é do sign up</string>
+    <string name="string_essa_imagem_do_sign_up">img_signup</string>
+    <string name="essa_imagem_do_login">Essa imagem é do login</string>
+    <string name="essa_imagem_do_sign_in">Essa imagem é do sign in</string>
+    <string name="string_essa_imagem_do_sign_in">img_signin</string>
 </resources>

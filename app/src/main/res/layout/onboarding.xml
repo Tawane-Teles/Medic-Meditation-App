@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_splashscreen"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="270dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="180dp"
+        android:contentDescription="@string/string_img_logo_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <ImageView
+        android:id="@+id/img_welcome"
+        android:layout_width="226dp"
+        android:layout_height="94dp"
+        android:contentDescription="@string/essa_imagem_do_welcome"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_logo"
+        app:srcCompat="@drawable/ic_welcome_text" />
+
+    <ImageButton
+        android:id="@+id/img_button"
+        android:layout_width="321dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="119dp"
+        android:contentDescription="@string/string_essa_imagem_do_bot_o"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_welcome"
+        app:srcCompat="@drawable/ic_button" />
+
+    <ImageView
+        android:id="@+id/img_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/string_essa_imagem_do_sign_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_button"
+        app:srcCompat="@drawable/ic_don_t_have_an_account__sign_up" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
