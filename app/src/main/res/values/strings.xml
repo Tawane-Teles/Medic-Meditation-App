@@ -11,4 +11,7 @@
     <string name="essa_imagem_do_login">Essa imagem é do login</string>
     <string name="essa_imagem_do_sign_in">Essa imagem é do sign in</string>
     <string name="string_essa_imagem_do_sign_in">img_signin</string>
+    <string name="todo">TODO</string>
+    <string name="esse_icone_do_sign_up">Esse icone é do sign up</string>
+    <string name="string_esse_icone_do_sign_up">ic_signup</string>
 </resources>
