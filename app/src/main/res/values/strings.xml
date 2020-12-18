@@ -29,4 +29,5 @@
     <string name="string_esse_cone_do_account">ic_account</string>
     <string name="esse_cone_do_fundo">Esse ícone é do fundo</string>
     <string name="string_esse_cone_do_fundo">ic_fundo</string>
+    <string name="esse_cone_do_header">Esse ícone é do header</string>
 </resources>
