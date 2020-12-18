@@ -14,4 +14,19 @@
     <string name="todo">TODO</string>
     <string name="esse_icone_do_sign_up">Esse icone é do sign up</string>
     <string name="string_esse_icone_do_sign_up">ic_signup</string>
+    <string name="essa_imagem_um_logo">Essa imagem é um logo</string>
+    <string name="esse_cone_do_logo">Esse ícone é do logo</string>
+    <string name="string_esse_cone_do_logo">ic_logo</string>
+    <string name="esse_cone_do_title">Esse ícone é do title</string>
+    <string name="string_esse_cone_do_title">ic_title</string>
+    <string name="esse_icone_do_email">Esse icone é do email</string>
+    <string name="string_esse_icone_do_email">ic_email</string>
+    <string name="esse_cone_do_password">Esse ícone é do password</string>
+    <string name="string_esse_cone_do_password">ic_password</string>
+    <string name="essa_cone_do_sign_up">Essa ícone é do sign up</string>
+    <string name="string_essa_cone_do_sign_up">ic_signup</string>
+    <string name="esse_cone_do_account">Esse ícone é do account</string>
+    <string name="string_esse_cone_do_account">ic_account</string>
+    <string name="esse_cone_do_fundo">Esse ícone é do fundo</string>
+    <string name="string_esse_cone_do_fundo">ic_fundo</string>
 </resources>

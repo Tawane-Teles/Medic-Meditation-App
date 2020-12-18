@@ -8,14 +8,88 @@
     tools:context=".MainActivity" >
 
     <ImageView
-        android:id="@+id/ic_signup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/ic_logo"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="505dp"
-        android:contentDescription="@string/string_esse_icone_do_sign_up"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="297dp"
+        android:contentDescription="@string/string_esse_cone_do_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <ImageView
+        android:id="@+id/ic_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="34dp"
+        android:contentDescription="@string/string_esse_cone_do_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_logo"
+        app:srcCompat="@drawable/ic_title" />
+
+    <ImageView
+        android:id="@+id/ic_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="35dp"
+        android:contentDescription="@string/string_esse_icone_do_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_title"
+        app:srcCompat="@drawable/ic_email" />
+
+    <ImageView
+        android:id="@+id/ic_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="35dp"
+        android:contentDescription="@string/string_esse_cone_do_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_email"
+        app:srcCompat="@drawable/ic_password" />
+
+    <ImageView
+        android:id="@+id/ic_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/string_essa_cone_do_sign_up"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_password"
+        app:srcCompat="@drawable/ic_sign_up" />
+
+    <ImageView
+        android:id="@+id/ic_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/string_esse_cone_do_account"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_signup"
+        app:srcCompat="@drawable/ic_don_t_have_an_account__sign_up" />
+
+    <ImageView
+        android:id="@+id/ic_fundo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/string_esse_cone_do_fundo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_password"
         app:srcCompat="@drawable/ic_group_27" />
 </androidx.constraintlayout.widget.ConstraintLayout>
