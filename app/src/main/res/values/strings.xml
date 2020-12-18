@@ -30,4 +30,8 @@
     <string name="esse_cone_do_fundo">Esse ícone é do fundo</string>
     <string name="string_esse_cone_do_fundo">ic_fundo</string>
     <string name="esse_cone_do_header">Esse ícone é do header</string>
+    <string name="esse_cone_do_main_title">Esse ícone é do main title</string>
+    <string name="esse_cone_do_subtitle">Esse ícone é do subtitle</string>
+    <string name="esse_icone_do_feelings">Esse icone é do feelings</string>
+    <string name="esse_cone_da_meditation">Esse ícone é da meditation</string>
 </resources>

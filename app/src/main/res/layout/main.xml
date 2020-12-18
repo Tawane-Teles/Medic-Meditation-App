@@ -18,4 +18,55 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_header__1_" />
+
+    <ImageView
+        android:id="@+id/ic_maintitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="67dp"
+        android:contentDescription="@string/esse_cone_do_main_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_header"
+        app:srcCompat="@drawable/ic_main_title" />
+
+    <ImageView
+        android:id="@+id/ic_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="118dp"
+        android:contentDescription="@string/esse_cone_do_subtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_maintitle"
+        app:srcCompat="@drawable/ic_subtitle" />
+
+    <ImageView
+        android:id="@+id/ic_feelings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/esse_icone_do_feelings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_subtitle"
+        app:srcCompat="@drawable/ic_feelings" />
+
+    <ImageView
+        android:id="@+id/ic_meditation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="18dp"
+        android:contentDescription="@string/esse_cone_da_meditation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_feelings"
+        app:srcCompat="@drawable/ic_meditation_101" />
 </androidx.constraintlayout.widget.ConstraintLayout>
