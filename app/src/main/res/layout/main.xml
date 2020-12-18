@@ -2,33 +2,23 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ic_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/img_signup"
-    tools:context=".MainActivity" >
-
-    <ImageView
-        android:id="@+id/ic_header"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="24dp"
-        android:contentDescription="@string/esse_cone_do_header"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_header__1_" />
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/ic_maintitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
+        android:layout_marginTop="90dp"
         android:layout_marginEnd="67dp"
         android:contentDescription="@string/esse_cone_do_main_title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ic_header"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_main_title" />
 
     <ImageView
@@ -69,4 +59,126 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ic_feelings"
         app:srcCompat="@drawable/ic_meditation_101" />
+
+    <ImageView
+        android:id="@+id/ic_hamburguer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="333dp"
+        android:contentDescription="@string/esse_cone_do_hamburguer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_hamburger" />
+
+    <ImageView
+        android:id="@+id/ic_logodois"
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="11dp"
+        android:contentDescription="@string/esse_cone_logo_dois"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ic_hamburguer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <ImageView
+        android:id="@+id/img_ellipse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="29dp"
+        android:contentDescription="@string/essa_imagem_do_ellipse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ic_logodois"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_ellipse" />
+
+    <ImageView
+        android:id="@+id/img_meditation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:contentDescription="@string/essa_imagem_da_medita_o"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_meditation"
+        app:layout_constraintEnd_toEndOf="@+id/ic_meditation"
+        app:layout_constraintStart_toStartOf="@+id/ic_meditation"
+        app:layout_constraintTop_toTopOf="@+id/ic_meditation"
+        app:srcCompat="@drawable/img_preview" />
+
+    <ImageView
+        android:id="@+id/ic_cardiomeditation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="18dp"
+        android:contentDescription="@string/esse_cone_do_cardio_meditation"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_meditation"
+        app:srcCompat="@drawable/ic_cardio_meditation" />
+
+    <ImageView
+        android:id="@+id/img_cardiomeditation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/essa_imagem_da_cardio_meditation"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_cardiomeditation"
+        app:layout_constraintEnd_toEndOf="@+id/ic_cardiomeditation"
+        app:layout_constraintStart_toStartOf="@+id/ic_cardiomeditation"
+        app:layout_constraintTop_toTopOf="@+id/ic_cardiomeditation"
+        app:srcCompat="@drawable/img_previweum" />
+
+    <ImageView
+        android:id="@+id/ic_profile"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="47dp"
+        android:contentDescription="@string/esse_cone_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_cardiomeditation"
+        app:srcCompat="@drawable/ic_profile" />
+
+    <ImageView
+        android:id="@+id/ic_sounds"
+        android:layout_width="22dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="51dp"
+        android:contentDescription="@string/essa_icone_o_sounds"
+        app:layout_constraintEnd_toStartOf="@+id/ic_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_cardiomeditation"
+        app:srcCompat="@drawable/ic_sounds" />
+
+    <ImageView
+        android:id="@+id/ic_homeum"
+        android:layout_width="108dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="85dp"
+        android:contentDescription="@string/esse_cone_um_home_um"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ic_profile"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_cardiomeditation"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_home" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
