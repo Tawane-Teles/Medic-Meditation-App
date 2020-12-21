@@ -78,4 +78,12 @@
     <string name="esse_icone_e_do_home_quatro">ic_homequatro</string>
     <string name="esse_o_sound_tres">ic_soundtres</string>
     <string name="esse_icone_e_o_user_2">ic_user2</string>
+    <string name="esse_icone_e_hamburguer_quatro">ic_hamburguerquatro</string>
+    <string name="esse_cone_o_logo_cinco">ic_logocinco</string>
+    <string name="esse_cone_edit">ic_edit</string>
+    <string name="essa_imagem_e_profile_pic">img_profilepic</string>
+    <string name="esse_icone_e_afreen_khan">ic_afreenkhan</string>
+    <string name="esse_icone_e_lucknow">ic_lucknow</string>
+    <string name="esse_cone_e_do_stats">ic_stats</string>
+    <string name="esse_icone_e_stats_e_achievements">ic_sments</string>
 </resources>
