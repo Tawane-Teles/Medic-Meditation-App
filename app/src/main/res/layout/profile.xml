@@ -103,34 +103,56 @@
                 app:srcCompat="@drawable/ic_achievements" />
 
             <ImageView
+                android:id="@+id/ic_stats"
+                android:layout_width="235dp"
+                android:layout_height="271dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="55dp"
+                android:contentDescription="@string/esse_icone_e_do_stats"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_sments"
+                app:srcCompat="@drawable/ic_stats" />
+
+            <ImageView
                 android:id="@+id/ic_homequatro"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="105dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="83dp"
                 android:contentDescription="@string/esse_icone_e_do_home_quatro"
+                app:layout_constraintEnd_toStartOf="@+id/ic_soundtres"
                 app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/ic_logo"
-                tools:layout_editor_absoluteY="757dp" />
+                app:layout_constraintTop_toBottomOf="@+id/ic_stats"
+                app:srcCompat="@drawable/ic_logo" />
 
             <ImageView
                 android:id="@+id/ic_soundtres"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="83dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="86dp"
                 android:contentDescription="@string/esse_o_sound_tres"
+                app:layout_constraintEnd_toStartOf="@+id/ic_user2"
                 app:layout_constraintStart_toEndOf="@+id/ic_homequatro"
-                app:srcCompat="@drawable/ic_sound"
-                tools:layout_editor_absoluteY="754dp" />
+                app:layout_constraintTop_toBottomOf="@+id/ic_stats"
+                app:srcCompat="@drawable/ic_sound" />
 
             <ImageView
                 android:id="@+id/ic_user2"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_marginStart="81dp"
+                android:layout_marginStart="86dp"
+                android:layout_marginTop="41dp"
+                android:layout_marginEnd="70dp"
                 android:contentDescription="@string/esse_icone_e_o_user_2"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/ic_soundtres"
-                app:srcCompat="@drawable/ic_user"
-                tools:layout_editor_absoluteY="761dp" />
+                app:layout_constraintTop_toBottomOf="@+id/ic_stats"
+                app:srcCompat="@drawable/ic_user" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
