@@ -166,19 +166,15 @@
 
     <ImageView
         android:id="@+id/ic_homeum"
-        android:layout_width="108dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="85dp"
-        android:contentDescription="@string/esse_cone_um_home_um"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ic_profile"
-        app:layout_constraintHorizontal_bias="0.417"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/string_esse_icone_um_home_um"
+        app:layout_constraintEnd_toStartOf="@+id/ic_sounds"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ic_cardiomeditation"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_home" />
+        app:srcCompat="@drawable/ic_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

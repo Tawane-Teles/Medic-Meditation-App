@@ -43,4 +43,6 @@
     <string name="esse_cone_profile">Esse ícone é profile</string>
     <string name="essa_icone_o_sounds">Essa icone é o sounds</string>
     <string name="esse_cone_um_home_um">Esse ícone é um home um</string>
+    <string name="esse_icone_um_home_um">Esse icone é um home um</string>
+    <string name="string_esse_icone_um_home_um">ic_homeum</string>
 </resources>
