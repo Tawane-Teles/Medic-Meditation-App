@@ -45,4 +45,23 @@
     <string name="esse_cone_um_home_um">Esse ícone é um home um</string>
     <string name="esse_icone_um_home_um">Esse icone é um home um</string>
     <string name="string_esse_icone_um_home_um">ic_homeum</string>
+    <string name="esse_cone_do_hamburguer_dois">Esse ícone é do hamburguer dois</string>
+    <string name="string_esse_cone_do_hamburguer_dois">ic_hamburguerdois</string>
+    <string name="esse_cone_do_logo_tres">Esse ícone é do logo tres</string>
+    <string name="string_esse_cone_do_logo_tres">ic_logotres</string>
+    <string name="esse_cone_do_ellipse_dois">Esse ícone é do ellipse dois</string>
+    <string name="string_esse_cone_do_ellipse_dois">ic_ellipsedois</string>
+    <string name="essa_imagem_album_art">Essa imagem é album art</string>
+    <string name="string_essa_imagem_album_art">img_albumart</string>
+    <string name="esse_cone_title_dois">Esse ícone é title dois</string>
+    <string name="string_esse_cone_title_dois">ic_titledois</string>
+    <string name="esse_cone_arist">Esse ícone é arist</string>
+    <string name="string_esse_cone_arist">ic_arist</string>
+    <string name="esse_cone_time">Esse ícone é time</string>
+    <string name="string_esse_cone_time">ic_time</string>
+    <string name="esse_cone_group">Esse ícone é group</string>
+    <string name="string_esse_cone_group">ic_group</string>
+    <string name="esse_cone_e_do_home_tres">ic_hometres</string>
+    <string name="esse_cone_sound_dois">ic_sounddois</string>
+    <string name="esse_cone_e_user">ic_user</string>
 </resources>

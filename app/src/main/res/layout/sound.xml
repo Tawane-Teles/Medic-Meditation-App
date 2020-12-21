@@ -1,6 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_signup">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="21dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ic_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_signup">
+
+
+            <ImageView
+                android:id="@+id/ic_hamburguerdois"
+                android:layout_width="22dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="75dp"
+                android:contentDescription="@string/string_esse_cone_do_hamburguer_dois"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_hamburger" />
+
+            <ImageView
+                android:id="@+id/ic_logotres"
+                android:layout_width="44dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="195dp"
+                android:layout_marginTop="59dp"
+                android:contentDescription="@string/string_esse_cone_do_logo_tres"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_logo" />
+
+            <ImageView
+                android:id="@+id/ic_ellipsedois"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="347dp"
+                android:layout_marginTop="66dp"
+                android:layout_marginEnd="24dp"
+                android:contentDescription="@string/string_esse_cone_do_ellipse_dois"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_ellipse" />
+
+            <ImageView
+                android:id="@+id/img_albumart"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginStart="94dp"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="62dp"
+                android:contentDescription="@string/string_essa_imagem_album_art"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_logotres"
+                app:srcCompat="@drawable/img_albumart" />
+
+            <ImageView
+                android:id="@+id/ic_titledois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="118dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="68dp"
+                android:contentDescription="@string/string_esse_cone_title_dois"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_albumart"
+                app:srcCompat="@drawable/ic_title__1_" />
+
+            <ImageView
+                android:id="@+id/ic_arist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="69dp"
+                android:contentDescription="@string/string_esse_cone_arist"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_titledois"
+                app:srcCompat="@drawable/ic_arist" />
+
+            <ImageView
+                android:id="@+id/ic_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="51dp"
+                android:layout_marginEnd="33dp"
+                android:contentDescription="@string/string_esse_cone_time"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_arist"
+                app:srcCompat="@drawable/ic_time" />
+
+            <ImageView
+                android:id="@+id/ic_group"
+                android:layout_width="304dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="67dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="36dp"
+                android:contentDescription="@string/string_esse_cone_group"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_time"
+                app:srcCompat="@drawable/ic_group" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/item_botom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="47dp">
+
+            <ImageView
+                android:id="@+id/ic_hometres"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="42dp"
+                android:contentDescription="@string/esse_cone_e_do_home_tres"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_logo" />
+
+            <ImageView
+                android:id="@+id/ic_sounddois"
+                android:layout_width="25dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="82dp"
+                android:contentDescription="@string/esse_cone_sound_dois"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ic_hometres"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_sound" />
+
+            <ImageView
+                android:id="@+id/ic_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="81dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="37dp"
+                android:contentDescription="@string/esse_cone_e_user"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ic_sounddois"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_user" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
