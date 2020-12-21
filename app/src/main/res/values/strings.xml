@@ -65,4 +65,17 @@
     <string name="esse_cone_sound_dois">ic_sounddois</string>
     <string name="esse_cone_e_user">ic_user</string>
     <string name="esse_icone_e_do_hamburguer_tres">ic_hamburguertres</string>
+    <string name="esse_cone_do_logo_quatro">ic_logoquatro</string>
+    <string name="esse_cone_ellipse_tres">ic_ellipsetres</string>
+    <string name="essa_imagem_retangulo">img_retangulo</string>
+    <string name="esse_icone_group_20">ic_group20</string>
+    <string name="esse_icone_e_do_play_button">ic_playbutton</string>
+    <string name="essa_imagem_e_do_rectangle_23">img_rectangle23</string>
+    <string name="essa_imagem_do_rectangle_25">img_rectangle25</string>
+    <string name="essa_imagem_do_rectangle_26">img_rectangle26</string>
+    <string name="essa_imagem_do_rectangle_28">img_rectangle28</string>
+    <string name="esse_icone_e_do_sounds">ic_sounds1</string>
+    <string name="esse_icone_e_do_home_quatro">ic_homequatro</string>
+    <string name="esse_o_sound_tres">ic_soundtres</string>
+    <string name="esse_icone_e_o_user_2">ic_user2</string>
 </resources>

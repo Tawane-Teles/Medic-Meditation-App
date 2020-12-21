@@ -1,21 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/ic_home"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/img_signup"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/ic_hamburguertres"
-        android:layout_width="22dp"
-        android:layout_height="18dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="75dp"
-        android:contentDescription="@string/esse_icone_e_do_hamburguer_tres"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_hamburger" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ic_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_signup"
+            tools:context=".MainActivity">
+
+
+            <ImageView
+                android:id="@+id/ic_hamburguertres"
+                android:layout_width="22dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="75dp"
+                android:contentDescription="@string/esse_icone_e_do_hamburguer_tres"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_hamburger" />
+
+            <ImageView
+                android:id="@+id/ic_logoquatro"
+                android:layout_width="44dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="119dp"
+                android:layout_marginTop="59dp"
+                android:contentDescription="@string/esse_cone_do_logo_quatro"
+                app:layout_constraintStart_toEndOf="@+id/ic_hamburguertres"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_logo" />
+
+            <ImageView
+                android:id="@+id/ic_ellipsetres"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="66dp"
+                android:layout_marginEnd="24dp"
+                android:contentDescription="@string/esse_cone_ellipse_tres"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ic_logoquatro"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_ellipse" />
+
+            <ImageView
+                android:id="@+id/img_retangulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="18dp"
+                android:contentDescription="@string/essa_imagem_retangulo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_logoquatro"
+                app:srcCompat="@drawable/img_retangulo" />
+
+            <ImageView
+                android:id="@+id/ic_playbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:contentDescription="@string/esse_icone_e_do_play_button"
+                app:layout_constraintEnd_toEndOf="@+id/img_retangulo"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/img_retangulo"
+                app:srcCompat="@drawable/ic_relax_sounds" />
+
+            <ImageView
+                android:id="@+id/img_rectangle23"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="69dp"
+                android:layout_marginTop="40dp"
+                android:contentDescription="@string/essa_imagem_e_do_rectangle_23"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_retangulo"
+                app:srcCompat="@drawable/img_retangulo23" />
+
+            <ImageView
+                android:id="@+id/img_rectangle25"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="69dp"
+                android:layout_marginTop="21dp"
+                android:contentDescription="@string/essa_imagem_do_rectangle_25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_rectangle23"
+                app:srcCompat="@drawable/img_retangulo25" />
+
+            <ImageView
+                android:id="@+id/img_rectangle26"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="69dp"
+                android:layout_marginTop="21dp"
+                android:contentDescription="@string/essa_imagem_do_rectangle_26"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_rectangle25"
+                app:srcCompat="@drawable/img_retangulo26" />
+
+            <ImageView
+                android:id="@+id/img_rectangle28"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="69dp"
+                android:layout_marginTop="21dp"
+                android:contentDescription="@string/essa_imagem_do_rectangle_28"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_rectangle26"
+                app:srcCompat="@drawable/img_retangulo28" />
+
+            <ImageView
+                android:id="@+id/ic_sounds1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="69dp"
+                android:layout_marginTop="40dp"
+                android:contentDescription="@string/esse_icone_e_do_sounds"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_retangulo"
+                app:srcCompat="@drawable/ic_sounds__1_" />
+
+            <ImageView
+                android:id="@+id/ic_homequatro"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="55dp"
+                android:contentDescription="@string/esse_icone_e_do_home_quatro"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_sounds1"
+                app:srcCompat="@drawable/ic_logo" />
+
+            <ImageView
+                android:id="@+id/ic_soundtres"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="83dp"
+                android:layout_marginTop="52dp"
+                android:contentDescription="@string/esse_o_sound_tres"
+                app:layout_constraintStart_toEndOf="@+id/ic_homequatro"
+                app:layout_constraintTop_toBottomOf="@+id/ic_sounds1"
+                app:srcCompat="@drawable/ic_sound" />
+
+            <ImageView
+                android:id="@+id/ic_user2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="81dp"
+                android:layout_marginTop="59dp"
+                android:contentDescription="@string/esse_icone_e_o_user_2"
+                app:layout_constraintStart_toEndOf="@+id/ic_soundtres"
+                app:layout_constraintTop_toBottomOf="@+id/ic_sounds1"
+                app:srcCompat="@drawable/ic_user" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/item_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
