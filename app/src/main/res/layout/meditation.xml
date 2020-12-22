@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ic_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_signup"
+            tools:context=".MainActivity">
+
+
+            <ImageView
+                android:id="@+id/ic_hamburguertres"
+                android:layout_width="22dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="75dp"
+                android:contentDescription="@string/esse_icone_e_do_hamburguer_tres"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_hamburger" />
+
+            <ImageView
+                android:id="@+id/ic_logoquatro"
+                android:layout_width="44dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="119dp"
+                android:layout_marginTop="59dp"
+                android:contentDescription="@string/esse_cone_do_logo_quatro"
+                app:layout_constraintStart_toEndOf="@+id/ic_hamburguertres"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_logo" />
+
+            <ImageView
+                android:id="@+id/ic_ellipsetres"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="66dp"
+                android:layout_marginEnd="24dp"
+                android:contentDescription="@string/esse_cone_ellipse_tres"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ic_logoquatro"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_ellipse" />
+
+            <ImageView
+                android:id="@+id/ic_titleum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="51dp"
+                android:contentDescription="@string/esse_icone_e_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_logoquatro"
+                app:srcCompat="@drawable/ic_title" />
+
+            <ImageView
+                android:id="@+id/ic_meditationum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="46dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="46dp"
+                android:contentDescription="@string/esse_icone_e_meditation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_titleum"
+                app:srcCompat="@drawable/ic_meditating" />
+
+            <ImageView
+                android:id="@+id/ic_homequatro"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="105dp"
+                android:contentDescription="@string/esse_icone_e_do_home_quatro"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/ic_logo"
+                tools:layout_editor_absoluteY="757dp" />
+
+            <ImageView
+                android:id="@+id/ic_soundtres"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="83dp"
+                android:contentDescription="@string/esse_o_sound_tres"
+                app:layout_constraintStart_toEndOf="@+id/ic_homequatro"
+                app:srcCompat="@drawable/ic_sound"
+                tools:layout_editor_absoluteY="754dp" />
+
+            <ImageView
+                android:id="@+id/ic_user2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="81dp"
+                android:contentDescription="@string/esse_icone_e_o_user_2"
+                app:layout_constraintStart_toEndOf="@+id/ic_soundtres"
+                app:srcCompat="@drawable/ic_user"
+                tools:layout_editor_absoluteY="761dp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/item_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
