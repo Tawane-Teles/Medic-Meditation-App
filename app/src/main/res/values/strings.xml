@@ -89,4 +89,9 @@
     <string name="esse_icone_e_do_stats">ic_stats</string>
     <string name="esse_icone_e_title">ic_titleum</string>
     <string name="esse_icone_e_meditation">ic_meditationum</string>
+    <string name="esse_icone_e_time">ic_timeum</string>
+    <string name="esse_icone_e_star_now">ic_starnow</string>
+    <string name="esse_icone_e_user_6">ic_user6</string>
+    <string name="esse_icone_e_sounds_2">ic_iconesounds2</string>
+    <string name="esse_icone_e_user_7">ic_user7</string>
 </resources>
