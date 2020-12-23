@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ic_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_signup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:context=".MainActivity">
+
+
+            <ImageView
+                android:id="@+id/ic_hamburguertres"
+                android:layout_width="22dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="75dp"
+                android:contentDescription="@string/esse_icone_e_do_hamburguer_tres"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_hamburger" />
+
+            <ImageView
+                android:id="@+id/ic_logoquatro"
+                android:layout_width="44dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="119dp"
+                android:layout_marginTop="59dp"
+                android:contentDescription="@string/esse_cone_do_logo_quatro"
+                app:layout_constraintStart_toEndOf="@+id/ic_hamburguertres"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_logo" />
+
+            <ImageView
+                android:id="@+id/ic_ellipsetres"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="66dp"
+                android:layout_marginEnd="24dp"
+                android:contentDescription="@string/esse_cone_ellipse_tres"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ic_logoquatro"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_ellipse" />
+
+            <ImageView
+                android:id="@+id/ic_user6"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="74dp"
+                android:contentDescription="@string/esse_icone_e_user_6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/ic_logo"
+                tools:layout_editor_absoluteY="733dp" />
+
+            <ImageView
+                android:id="@+id/ic_iconesounds2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="84dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/esse_icone_e_sounds_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ic_user6"
+                app:srcCompat="@drawable/ic_sounds" />
+
+            <ImageView
+                android:id="@+id/ic_user7"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="87dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/esse_icone_e_user_7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ic_iconesounds2"
+                app:srcCompat="@drawable/ic_profile" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/item_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>>
