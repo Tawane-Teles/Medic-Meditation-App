@@ -100,4 +100,8 @@
     <string name="esse_icone_e_positive_notes">ic_positivenotes</string>
     <string name="esse_icone_e_trigger_plan">ic_triggerplan</string>
     <string name="esse_icone_e_goal_trainer">ic_goaltrainer</string>
+    <string name="esse_icone_e_sleep">ic_sleep</string>
+    <string name="esse_icone_e_sleep_time">ic_sleeptime</string>
+    <string name="esse_icone_e_deep">ic_deep</string>
+    <string name="esse_icone_e_quality">ic_quality</string>
 </resources>
