@@ -104,4 +104,5 @@
     <string name="esse_icone_e_sleep_time">ic_sleeptime</string>
     <string name="esse_icone_e_deep">ic_deep</string>
     <string name="esse_icone_e_quality">ic_quality</string>
+    <string name="esse_icone_e_bedtime">ic_bedtime</string>
 </resources>

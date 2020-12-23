@@ -100,6 +100,28 @@
                 app:srcCompat="@drawable/ic_quality" />
 
             <ImageView
+                android:id="@+id/ic_bedtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="32dp"
+                android:contentDescription="@string/esse_icone_e_bedtime"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_sleeptime"
+                app:srcCompat="@drawable/ic_title__3_" />
+
+            <ImageView
+                android:id="@+id/ic_chart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="33dp"
+                android:contentDescription="esse icone e chart"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_bedtime"
+                app:srcCompat="@drawable/ic_chart" />
+
+            <ImageView
                 android:id="@+id/ic_user6"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
