@@ -94,4 +94,10 @@
     <string name="esse_icone_e_user_6">ic_user6</string>
     <string name="esse_icone_e_sounds_2">ic_iconesounds2</string>
     <string name="esse_icone_e_user_7">ic_user7</string>
+    <string name="esse_icone_e_tools">ic_tools</string>
+    <string name="esse_icone_e_mood_journal">ic_moodjournal</string>
+    <string name="esse_icone_e_mood_booster">esse icone e mood booster</string>
+    <string name="esse_icone_e_positive_notes">ic_positivenotes</string>
+    <string name="esse_icone_e_trigger_plan">ic_triggerplan</string>
+    <string name="esse_icone_e_goal_trainer">ic_goaltrainer</string>
 </resources>

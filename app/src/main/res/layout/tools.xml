@@ -56,14 +56,81 @@
                 app:srcCompat="@drawable/img_ellipse" />
 
             <ImageView
+                android:id="@+id/ic_tools"
+                android:layout_width="77dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/esse_icone_e_tools"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_hamburguertres"
+                app:srcCompat="@drawable/ic_title__1_" />
+
+            <ImageView
+                android:id="@+id/ic_moodjournal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/esse_icone_e_mood_journal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_tools"
+                app:srcCompat="@drawable/ic_mood_journal" />
+
+            <ImageView
+                android:id="@+id/ic_moodbooster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="110dp"
+                android:contentDescription="@string/esse_icone_e_mood_booster"
+                app:layout_constraintStart_toEndOf="@+id/ic_moodjournal"
+                app:layout_constraintTop_toBottomOf="@+id/ic_ellipsetres"
+                app:srcCompat="@drawable/ic_mood_booster" />
+
+            <ImageView
+                android:id="@+id/ic_positivenotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/esse_icone_e_positive_notes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_moodjournal"
+                app:srcCompat="@drawable/ic_positive_notes" />
+
+            <ImageView
+                android:id="@+id/ic_triggerplan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/esse_icone_e_trigger_plan"
+                app:layout_constraintStart_toEndOf="@+id/ic_positivenotes"
+                app:layout_constraintTop_toBottomOf="@+id/ic_moodbooster"
+                app:srcCompat="@drawable/ic_trigger_plan" />
+
+            <ImageView
+                android:id="@+id/ic_goaltrainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/esse_icone_e_goal_trainer"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_positivenotes"
+                app:srcCompat="@drawable/ic_goal_trainer" />
+
+            <ImageView
                 android:id="@+id/ic_user6"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginStart="74dp"
+                android:layout_marginTop="144dp"
                 android:contentDescription="@string/esse_icone_e_user_6"
                 app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/ic_logo"
-                tools:layout_editor_absoluteY="733dp" />
+                app:layout_constraintTop_toBottomOf="@+id/ic_goaltrainer"
+                app:srcCompat="@drawable/ic_logo" />
 
             <ImageView
                 android:id="@+id/ic_iconesounds2"
